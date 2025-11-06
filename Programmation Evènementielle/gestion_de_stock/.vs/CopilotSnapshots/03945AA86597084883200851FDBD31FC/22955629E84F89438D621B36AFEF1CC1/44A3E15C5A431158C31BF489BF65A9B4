@@ -1,0 +1,52 @@
+﻿﻿Imports System.Runtime.CompilerServices.RuntimeHelpers
+
+Public Class Form1
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+End Class
+Private Sub btnajouter_click(sender As Object, e As EventArgs) Handles btnajouter.Click
+    Dim A As article
+    If validerarticle(A) Then
+        ajouterarticle(A)
+        Init()
+        MessageBox.Show("article ajouté avec succes", "information")
+    End If
+End Sub
+Private Function validerarticle(ByRef A As article) As Boolean
+    Dim code, quantite As Integer
+    Dim prix As Double
+    Dim valide As Boolean = True
+    'effacer les erreurs precedentes
+    ErrorProvider.Clear()
+    ' --------code article ---------
+    If Not Integer tryparse(txtcode.text,code)Then
+        ErrorProvider.SetError(txtcode, "codeinvalide")
+        valide = False
+    Else
+        A.code = code
+    End If
+End Function
+'--------designation article ---------
+If String.IsNullOrWhiteSpace(txtdesignation.text) Then
+ErrorProvider.SetError(txtdesignation, "designation manquante")
+valide = False
+Else
+A.designation = txtdesignation.text
+End If
+'--------prix article ---------
+If Not Double.TryParse(txtprix.text, prix) Or prix <= 0 Then
+ErrorProvider.SetError(txtprix, "prix invalide")
+valide = False
+Else
+A.prix = prix
+End If
+'--------quantite article ---------
+If Not Integer.TryParse(txtquanti.text, quantite) Or quantite <= 0 Then
+ErrorProvider.SetError(txtquanti, "quantite invalide")
+valide = False
+Else
+A.quantite = quantite
+End If
+
+

@@ -1,0 +1,16 @@
+C:\Users\Lenovo\Desktop\2LIG2\Programmation Evènementielle\gestion_de_stock\bin\Debug\net8.0-windows\gestion de stock.exe
+C:\Users\Lenovo\Desktop\2LIG2\Programmation Evènementielle\gestion_de_stock\bin\Debug\net8.0-windows\gestion de stock.deps.json
+C:\Users\Lenovo\Desktop\2LIG2\Programmation Evènementielle\gestion_de_stock\bin\Debug\net8.0-windows\gestion de stock.runtimeconfig.json
+C:\Users\Lenovo\Desktop\2LIG2\Programmation Evènementielle\gestion_de_stock\bin\Debug\net8.0-windows\gestion de stock.dll
+C:\Users\Lenovo\Desktop\2LIG2\Programmation Evènementielle\gestion_de_stock\bin\Debug\net8.0-windows\gestion de stock.pdb
+C:\Users\Lenovo\Desktop\2LIG2\Programmation Evènementielle\gestion_de_stock\obj\Debug\net8.0-windows\gestion_de_stock.Form1.resources
+C:\Users\Lenovo\Desktop\2LIG2\Programmation Evènementielle\gestion_de_stock\obj\Debug\net8.0-windows\gestion de stock.vbproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\2LIG2\Programmation Evènementielle\gestion_de_stock\obj\Debug\net8.0-windows\gestion de stock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\2LIG2\Programmation Evènementielle\gestion_de_stock\obj\Debug\net8.0-windows\gestion de stock.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\2LIG2\Programmation Evènementielle\gestion_de_stock\obj\Debug\net8.0-windows\gestion de stock.AssemblyInfo.vb
+C:\Users\Lenovo\Desktop\2LIG2\Programmation Evènementielle\gestion_de_stock\obj\Debug\net8.0-windows\gestion de stock.vbproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\2LIG2\Programmation Evènementielle\gestion_de_stock\obj\Debug\net8.0-windows\gestion de stock.dll
+C:\Users\Lenovo\Desktop\2LIG2\Programmation Evènementielle\gestion_de_stock\obj\Debug\net8.0-windows\refint\gestion de stock.dll
+C:\Users\Lenovo\Desktop\2LIG2\Programmation Evènementielle\gestion_de_stock\obj\Debug\net8.0-windows\gestion de stock.pdb
+C:\Users\Lenovo\Desktop\2LIG2\Programmation Evènementielle\gestion_de_stock\obj\Debug\net8.0-windows\gestion de stock.genruntimeconfig.cache
+C:\Users\Lenovo\Desktop\2LIG2\Programmation Evènementielle\gestion_de_stock\obj\Debug\net8.0-windows\ref\gestion de stock.dll

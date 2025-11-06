@@ -1,0 +1,35 @@
+﻿Imports System.DirectoryServices.ActiveDirectory
+Imports System.Runtime.CompilerServices.RuntimeHelpers
+
+Module article
+    ﻿Imports System.Runtime.CompilerServices.RuntimeHelpers
+
+Public Structure article
+        Dim code As Integer
+        Dim designation As String
+        Dim prix As Double
+        Dim quantite As Integer
+        Dim A As article
+    End Structure
+    Public listarticles As New List(Of article)
+    Public Sub ajouterarticle(ByVal A As article)
+        Dim x As Integer = exist(A)
+        If x > 0 Then
+            Dim temp As article = listarticles(x - 1)
+            temp.quantite += temp.quantite
+            temp.prix = A.prix
+            listarticles(x - 1) = temp
+        Else
+            listarticles.Add(A)
+        End If
+    End Sub
+    Private Function exist(A As article) As Integer
+        Dim p As Integer = -1
+        For i As Integer = 0 To listarticles.Count - 1
+            If listarticles(i).code = A.code Then
+                p = i
+            End If
+        Next
+        Return p
+    End Function
+End Module
